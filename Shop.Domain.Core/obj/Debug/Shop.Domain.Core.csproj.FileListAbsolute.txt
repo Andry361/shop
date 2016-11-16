@@ -1,0 +1,5 @@
+C:\projects\Shop\Shop.Domain.Core\bin\Debug\Shop.Domain.Core.dll
+C:\projects\Shop\Shop.Domain.Core\bin\Debug\Shop.Domain.Core.pdb
+C:\projects\Shop\Shop.Domain.Core\obj\Debug\Shop.Domain.Core.csprojResolveAssemblyReference.cache
+C:\projects\Shop\Shop.Domain.Core\obj\Debug\Shop.Domain.Core.dll
+C:\projects\Shop\Shop.Domain.Core\obj\Debug\Shop.Domain.Core.pdb

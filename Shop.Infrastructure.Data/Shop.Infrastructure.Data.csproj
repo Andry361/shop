@@ -30,6 +30,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FluentNHibernate, Version=2.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentNHibernate.2.0.3.0\lib\net40\FluentNHibernate.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=4.0.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Iesi.Collections.4.0.0.4000\lib\net40\Iesi.Collections.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\NHibernate.4.0.0.4000\lib\net40\NHibernate.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,8 +52,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccessControlManagerContext.cs" />
+    <Compile Include="Helpers\AutomappingConfiguration.cs" />
+    <Compile Include="MappingOverrides\UserOverrides.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Helpers\UnitOfWork.cs" />
+    <Compile Include="Repositories\Repository.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Shop.Domain.Core\Shop.Domain.Core.csproj">
+      <Project>{6479312e-3df3-4b8a-973c-16ead30423f1}</Project>
+      <Name>Shop.Domain.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shop.Domain.Interfaces\Shop.Domain.Interfaces.csproj">
+      <Project>{67d39ccf-d003-4aae-b2a1-0ab31acc3c34}</Project>
+      <Name>Shop.Domain.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shop.Services.Interfaces\Shop.Services.Interfaces.csproj">
+      <Project>{71f72cd6-5266-4c35-98ae-cd5a4e326b56}</Project>
+      <Name>Shop.Services.Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

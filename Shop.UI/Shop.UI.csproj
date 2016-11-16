@@ -117,6 +117,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\UnitOfWorkActionFilter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -135,6 +136,20 @@
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Shop.Domain.Core\Shop.Domain.Core.csproj">
+      <Project>{6479312e-3df3-4b8a-973c-16ead30423f1}</Project>
+      <Name>Shop.Domain.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shop.Domain.Interfaces\Shop.Domain.Interfaces.csproj">
+      <Project>{67d39ccf-d003-4aae-b2a1-0ab31acc3c34}</Project>
+      <Name>Shop.Domain.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shop.Services.Interfaces\Shop.Services.Interfaces.csproj">
+      <Project>{71f72cd6-5266-4c35-98ae-cd5a4e326b56}</Project>
+      <Name>Shop.Services.Interfaces</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
