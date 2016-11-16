@@ -7,13 +7,12 @@ using System.Threading.Tasks;
 
 namespace Shop.Domain.Interfaces
 {
-  interface IUserRepository
+  public interface IRepository<T> where T : Entity
   {
-    IEnumerable<User> GetUsers();
-    User GetUser(Guid id);
-    void Create(User user);
-    void Update(User user);
-    void Delete(Guid id);
-    void Save();
+    IQueryable<T> GetAll();
+    T GetById(int id);
+    void Create(T entity);
+    void Update(T entity);
+    void Delete(int id);
   }
 }

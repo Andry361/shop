@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Shop.Domain.Core
 {
-  public abstract class BaseObject
+  public abstract class Entity
   {
     public virtual Guid Id { get; set; }
     public virtual bool IsRemoved { get; set; }

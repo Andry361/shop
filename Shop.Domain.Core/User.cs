@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Shop.Domain.Core
 {
-  public class User : BaseObject
+  public class User : Entity
   {
     public virtual string Login { get; set; }
     public virtual string PasswordHash { get; set; }
