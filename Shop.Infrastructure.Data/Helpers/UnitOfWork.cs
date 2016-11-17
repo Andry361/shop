@@ -24,7 +24,7 @@ namespace Shop.Infrastructure.Data.Helpers
     static UnitOfWork()
     {
       _sessionFactory = Fluently.Configure()
-          .Database(MsSqlConfiguration.MsSql2008.ConnectionString(x => x.FromConnectionStringWithKey("UnitOfWorkExample")))
+          .Database(MsSqlConfiguration.MsSql2008.ConnectionString(x => x.FromConnectionStringWithKey("Shop")))
           .Mappings(x => x.AutoMappings.Add(
               AutoMap.AssemblyOf<User>(new AutomappingConfiguration()).UseOverridesFromAssemblyOf<UserOverrides>()))
           .ExposeConfiguration(config => new SchemaUpdate(config).Execute(false, true))

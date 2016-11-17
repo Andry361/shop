@@ -1,0 +1,17 @@
+C:\prog\shop\Shop.Services.Logic\bin\Debug\Shop.Services.Logic.dll
+C:\prog\shop\Shop.Services.Logic\bin\Debug\Shop.Services.Logic.pdb
+C:\prog\shop\Shop.Services.Logic\bin\Debug\Shop.Domain.Core.dll
+C:\prog\shop\Shop.Services.Logic\bin\Debug\Shop.Domain.Interfaces.dll
+C:\prog\shop\Shop.Services.Logic\bin\Debug\Shop.Services.Interfaces.dll
+C:\prog\shop\Shop.Services.Logic\bin\Debug\Shop.Domain.Core.pdb
+C:\prog\shop\Shop.Services.Logic\bin\Debug\Shop.Domain.Interfaces.pdb
+C:\prog\shop\Shop.Services.Logic\bin\Debug\Shop.Services.Interfaces.pdb
+C:\prog\shop\Shop.Services.Logic\obj\Debug\Shop.Services.Logic.csprojResolveAssemblyReference.cache
+C:\prog\shop\Shop.Services.Logic\obj\Debug\Shop.Services.Logic.dll
+C:\prog\shop\Shop.Services.Logic\obj\Debug\Shop.Services.Logic.pdb
+C:\prog\shop\Shop.Services.Logic\obj\Debug\Shop.Services.Logic.Properties.Resources.resources
+C:\prog\shop\Shop.Services.Logic\obj\Debug\Shop.Services.Logic.Properties.Resources.ru-RU.resources
+C:\prog\shop\Shop.Services.Logic\obj\Debug\Shop.Services.Logic.csproj.GenerateResource.Cache
+C:\prog\shop\Shop.Services.Logic\bin\Debug\ru-RU\Shop.Services.Logic.resources.dll
+C:\prog\shop\Shop.Services.Logic\bin\Debug\ru-RU\Shop.Domain.Core.resources.dll
+C:\prog\shop\Shop.Services.Logic\obj\Debug\ru-RU\Shop.Services.Logic.resources.dll

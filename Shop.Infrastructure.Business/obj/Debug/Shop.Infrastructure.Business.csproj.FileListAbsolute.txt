@@ -1,0 +1,15 @@
+C:\prog\shop\Shop.Infrastructure.Business\bin\Debug\Shop.Infrastructure.Business.dll
+C:\prog\shop\Shop.Infrastructure.Business\bin\Debug\Shop.Infrastructure.Business.pdb
+C:\prog\shop\Shop.Infrastructure.Business\bin\Debug\Shop.Domain.Core.dll
+C:\prog\shop\Shop.Infrastructure.Business\bin\Debug\Shop.Domain.Interfaces.dll
+C:\prog\shop\Shop.Infrastructure.Business\bin\Debug\Shop.Services.Interfaces.dll
+C:\prog\shop\Shop.Infrastructure.Business\bin\Debug\Shop.Services.Logic.dll
+C:\prog\shop\Shop.Infrastructure.Business\bin\Debug\Shop.Domain.Core.pdb
+C:\prog\shop\Shop.Infrastructure.Business\bin\Debug\Shop.Domain.Interfaces.pdb
+C:\prog\shop\Shop.Infrastructure.Business\bin\Debug\Shop.Services.Interfaces.pdb
+C:\prog\shop\Shop.Infrastructure.Business\bin\Debug\Shop.Services.Logic.pdb
+C:\prog\shop\Shop.Infrastructure.Business\obj\Debug\Shop.Infrastructure.Business.csprojResolveAssemblyReference.cache
+C:\prog\shop\Shop.Infrastructure.Business\obj\Debug\Shop.Infrastructure.Business.dll
+C:\prog\shop\Shop.Infrastructure.Business\obj\Debug\Shop.Infrastructure.Business.pdb
+C:\prog\shop\Shop.Infrastructure.Business\bin\Debug\ru-RU\Shop.Domain.Core.resources.dll
+C:\prog\shop\Shop.Infrastructure.Business\bin\Debug\ru-RU\Shop.Services.Logic.resources.dll

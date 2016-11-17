@@ -7,3 +7,13 @@ C:\projects\Shop\Shop.Services.Interfaces\bin\Debug\Shop.Domain.Interfaces.pdb
 C:\projects\Shop\Shop.Services.Interfaces\obj\Debug\Shop.Services.Interfaces.csprojResolveAssemblyReference.cache
 C:\projects\Shop\Shop.Services.Interfaces\obj\Debug\Shop.Services.Interfaces.dll
 C:\projects\Shop\Shop.Services.Interfaces\obj\Debug\Shop.Services.Interfaces.pdb
+C:\prog\shop\Shop.Services.Interfaces\bin\Debug\Shop.Services.Interfaces.dll
+C:\prog\shop\Shop.Services.Interfaces\bin\Debug\Shop.Services.Interfaces.pdb
+C:\prog\shop\Shop.Services.Interfaces\bin\Debug\Shop.Domain.Core.dll
+C:\prog\shop\Shop.Services.Interfaces\bin\Debug\Shop.Domain.Interfaces.dll
+C:\prog\shop\Shop.Services.Interfaces\bin\Debug\Shop.Domain.Core.pdb
+C:\prog\shop\Shop.Services.Interfaces\bin\Debug\Shop.Domain.Interfaces.pdb
+C:\prog\shop\Shop.Services.Interfaces\obj\Debug\Shop.Services.Interfaces.csprojResolveAssemblyReference.cache
+C:\prog\shop\Shop.Services.Interfaces\obj\Debug\Shop.Services.Interfaces.dll
+C:\prog\shop\Shop.Services.Interfaces\obj\Debug\Shop.Services.Interfaces.pdb
+C:\prog\shop\Shop.Services.Interfaces\bin\Debug\ru-RU\Shop.Domain.Core.resources.dll

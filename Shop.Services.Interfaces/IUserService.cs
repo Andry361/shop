@@ -7,12 +7,8 @@ using System.Threading.Tasks;
 
 namespace Shop.Services.Interfaces
 {
-  public interface IUserService
+  public interface IUserService: IBaseService<User>
   {
-    IList<User> GetAll();
-    User GetById(Guid id);
-    void Create(User product);
-    void Update(User product);
-    void Delete(Guid id);
+
   }
 }

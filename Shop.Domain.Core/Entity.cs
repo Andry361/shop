@@ -21,4 +21,11 @@ namespace Shop.Domain.Core
       return DisplayName;
     }
   }
+  public static class EntityExtensions
+  {
+    public static bool IsNew(this Entity baseObject)
+    {
+      return baseObject.Id.Equals(Guid.Empty);
+    }
+  }
 }

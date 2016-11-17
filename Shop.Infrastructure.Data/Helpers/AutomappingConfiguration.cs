@@ -12,7 +12,7 @@ namespace Shop.Infrastructure.Data.Helpers
   {
     public override bool ShouldMap(Type type)
     {
-      return type.BaseType == typeof(Entity);
+      return typeof(Shop.Domain.Core.Entity).IsAssignableFrom(type);
     }
   }
 }

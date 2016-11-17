@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UnityConfig.cs" />
     <Compile Include="UserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -55,6 +56,10 @@
     <ProjectReference Include="..\Shop.Services.Interfaces\Shop.Services.Interfaces.csproj">
       <Project>{71f72cd6-5266-4c35-98ae-cd5a4e326b56}</Project>
       <Name>Shop.Services.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shop.Services.Logic\Shop.Services.Logic.csproj">
+      <Project>{445000a5-1520-420f-8f8c-cc162222cc9b}</Project>
+      <Name>Shop.Services.Logic</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
